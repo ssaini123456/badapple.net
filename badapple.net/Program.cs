@@ -179,7 +179,8 @@ namespace badapple.net
                     Console.WriteLine(sb);
                     sb.Clear();
                 }
-                Task.Delay(2000);
+
+                Thread.Sleep(1000);
                 ClrScr();
             }
 
